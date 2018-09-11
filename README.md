@@ -10,7 +10,7 @@ powered by nanqinlang and editd by tm at 20180911
 then,your can find your user-passwd config in user-config.json,which you can edit it by yourself
 
 if you want to add user for your server,you can edit user-config.json like this:
-
+```
 {
     "server": "0.0.0.0",
     "server_ipv6": "::",
@@ -38,7 +38,7 @@ if you want to add user for your server,you can edit user-config.json like this:
     "redirect": "",
     "fast_open": true
 }
-
+```
 wiki：https://github.com/tm2018/shell/blob/master/shadowsockr-shell/ssr-setup.sh
 
 releases：https://github.com/nanqinlang/shadowsocksr/releases
