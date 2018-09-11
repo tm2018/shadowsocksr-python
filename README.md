@@ -44,13 +44,13 @@ releases：https://github.com/nanqinlang/shadowsocksr/releases
 
 #help:
 
-all your files for ssr is in dir /home/shadowsocks,you can select to remain here or move to other dirs
+all your files for ssr is in dir /home/shadowsocksr,you can select to remain here or move to other dirs
 
 you can do like this:
 ```
 start project 
-#cd /home/shadowsocks && chmod +x *.sh && ./run.sh
+#cd /home/shadowsocksr && chmod +x *.sh && ./run.sh
 
 stop project
-#cd /home/shadowsocks && ./stop.sh
+#cd /home/shadowsocksr && ./stop.sh
 ```
