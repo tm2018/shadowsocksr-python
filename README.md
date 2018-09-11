@@ -10,33 +10,33 @@ powered by nanqinlang and editd by tm at 20180911
 then,your can find your user-passwd config in user-config.json,which you can edit it by yourself
 
 if you want to add user for your server,you can edit user-config.json like this:
-{
-    "server": "0.0.0.0",
-    "server_ipv6": "::",
-    "local_address": "127.0.0.1",
-    "local_port": 1080,
+    {
+        "server": "0.0.0.0",
+        "server_ipv6": "::",
+        "local_address": "127.0.0.1",
+        "local_port": 1080,
 
-    "port_password": {
-                    "10000": "password10000",
-                    "10001": "password10001"
-                    },
-    "method": "rc4-md5",
-    "protocol": "origin",
-    "protocol_param": "",
-    "obfs": "plain",
-    "obfs_param": "",
-    "speed_limit_per_con": 0,
-    "speed_limit_per_user": 0,
+        "port_password": {
+                        "10000": "password10000",
+                        "10001": "password10001"
+                        },
+        "method": "rc4-md5",
+        "protocol": "origin",
+        "protocol_param": "",
+        "obfs": "plain",
+        "obfs_param": "",
+        "speed_limit_per_con": 0,
+        "speed_limit_per_user": 0,
 
-    "additional_ports" : {}, // only works under multi-user mode
-    "additional_ports_only" : false, // only works under multi-user mode
-    "timeout": 120,
-    "udp_timeout": 60,
-    "dns_ipv6": false,
-    "connect_verbose_info": 0,
-    "redirect": "",
-    "fast_open": true
-}
+        "additional_ports" : {}, // only works under multi-user mode
+        "additional_ports_only" : false, // only works under multi-user mode
+        "timeout": 120,
+        "udp_timeout": 60,
+        "dns_ipv6": false,
+        "connect_verbose_info": 0,
+        "redirect": "",
+        "fast_open": true
+    }
 
 wiki：https://github.com/tm2018/shell/blob/master/shadowsockr-shell/ssr-setup.sh
 
