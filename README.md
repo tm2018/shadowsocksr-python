@@ -6,7 +6,9 @@
 
 powered by nanqinlang and editd by tm at 20180911 
 
-`wget -N --no-check-certificate https://github.com/nanqinlang/shadowsocksr/releases/download/2.1/ssr_setup_2.1.sh && chmod +x ssr_setup_2.1.sh && bash ssr_setup_2.1.sh install`
+`#wget -N --no-check-certificate https://github.com/nanqinlang/shadowsocksr/releases/download/2.1/ssr_setup_2.1.sh && chmod +x ssr_setup_2.1.sh && bash ssr_setup_2.1.sh install`
+
+then,your can find your user-passwd config in /home/user-config.json,which you can edit it by yourself
 
 wiki：https://github.com/tm2018/shell/blob/master/shadowsockr-shell/ssr-setup.sh
 
